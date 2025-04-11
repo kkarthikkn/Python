@@ -5,7 +5,7 @@ import mysql.connector
 conn=mysql.connector.connect(host='localhost',
                              password='123456',       # check the password
                              user='root',
-                             database='customer')
+                             database='customer')   # add parameter 'use_pure=True', if not connected
 
 cursor=conn.cursor()
 
